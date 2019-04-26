@@ -35,7 +35,7 @@ class Person extends React.Component {
         return (
             <div className='person'>
                 <div className='name'>
-                    name: {this.state.character.name}
+                    {this.state.character.name}:
                 </div>
                 <div className='birth_year'>
                     year of Birth: {this.state.character.birth_year}

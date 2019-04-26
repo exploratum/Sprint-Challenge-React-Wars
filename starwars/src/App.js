@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import PersonList from "./components/PersonList"
+import PersonList from "./components/PersonList";
 
 class App extends Component {
   constructor() {
@@ -30,11 +30,12 @@ class App extends Component {
       });
   };
 
+  
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <PersonList characters = {this.state.starwarsChars} fetch = {this.componentDidMount}/>
+        <PersonList characters = {this.state.starwarsChars}/>
       </div>
     );
   }

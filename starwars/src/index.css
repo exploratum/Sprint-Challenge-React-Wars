@@ -5,3 +5,32 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+#root {
+  width: 700px;
+  margin-top: 20px;
+}
+
+
+.person {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
+  width: 700px;
+  font-size: 1rem;
+
+}
+
+.name {
+  width: 33%;
+  font-weight: bold;
+  
+}
+
+.birth-year {
+  width: 33%;
+}
+
+.homeworld {
+  width: 33%
+}
