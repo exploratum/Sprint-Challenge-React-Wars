@@ -26,11 +26,21 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a Javascript library designed to help building user interfaces. It is based on the idea of building component that React.js will render on the web page. It is built for performance and when page related data change, React will only change that part of the page that is changing. 
+
 - [ ] What does it mean to _think_ in react?
+
+To think in React is to think in terms of components and see how data flow between components, mostly in a top down fashion. As data change and flow between components, only DOM elements that are impacted by the data change will be updated, therefore improving performance.
+
 
 - [ ] Describe state.
 
+State is the value of the data at a point of time
+
 - [ ] Describe props.
+
+ props are similar to what arguments are for a function, here they transport the data from a component to another.
+
 
 ## Project Set Up
 
